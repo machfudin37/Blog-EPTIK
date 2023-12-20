@@ -2,6 +2,10 @@ body{
     background-image: url("bg.jpg");
     background-size: cover; /* Opsional: Sesuaikan dengan kebutuhan desain Anda */
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 .nama{
   text-align: start;
@@ -16,7 +20,6 @@ body{
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       width: 1000px;
-      margin-left: 165px;
       margin-top: 20px;
       background-color: white;
       border-radius: 10px;
