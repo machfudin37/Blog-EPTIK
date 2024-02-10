@@ -1,7 +1,5 @@
 body{
-    background-image: url("bg.jpg");
-    background-size: cover; /* Opsional: Sesuaikan dengan kebutuhan desain Anda */
-    background-repeat: no-repeat;
+    background-color: #007bff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +21,7 @@ body{
       margin-top: 20px;
       background-color: white;
       border-radius: 10px;
+      margin-bottom: 30px;
     }
   
   /* On mouse-over, add a deeper shadow */
@@ -50,6 +49,7 @@ body{
     margin-top: 10px;
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: bold;
   }
   .sub-menu{
     text-align: start;
@@ -80,3 +80,24 @@ body{
   a:hover {
     color: #007bff; /* Change text color on hover */
   }
+
+#border-daftarisi{
+  display: flex;
+  flex-direction:column
+}
+#border-daftarisi>button{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+#border-daftarisi>button:hover{
+  color: #007bff;
+}
+
+/* tab-content */
+.tab-content {
+      display: none;
+    }
+.tab-content.active {
+    display: block;
+}
